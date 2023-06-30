@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- swiper-bundle css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Fan page</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Pulp fiction / Fan page</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active-link">Strona Glówna</a></li>
+                    <li class="nav_item"><a href="#actors" class="nav_link">Aktorzy</a></li>
+                    <li class="nav_item"><a href="#discover" class="nav_link">Galeria</a></li>
+                    <li class="nav_item"><a href="#trailers" class="nav_link">Klip</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">Rekomendacji</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Home section -->
+        <section class="home" id="home">
+            <img src="assets/img/home1.png" alt="" class="home_img">
+
+            <div class="home_container container grid">
+                <div class="home_data">
+                    <span class="home_data-subtitle">Pulp fiction</span>
+                    <h1 class="home_data-title">Cult movie <br> directed <b>by <br> Quentin Tarantino</b></h1>
+                    <a href="#trailers" class="button">Trailer</a>
+                </div>
+
+                <div class="home_info">
+                    <div>
+                        <span class="home_info-title">Reżyser: Quentin Tarantino. 
+                            Rok: 1994.
+                             Gatunek: Kryminał/Dramat
+                        </span>
+
+                        <span class="home_info-rating">
+                            <span class="imdbRatingPlugin" data-user="ur163331356" data-title="tt0110912" data-style="p2">
+                                <a href="https://www.imdb.com/title/tt0110912/?ref_=plg_rt_1"><img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_38x18.png" alt="Pulp Fiction (1994) on IMDb"/></a>
+                            </span>
+                            
+                            <script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/js/rating.js";stags.parentNode.insertBefore(js,stags);})(document,"script","imdb-rating-api");</script>
+                        </span>
+                    </div>
+
+                    <div class="home_info-overlay">
+                        <img src="assets/img/home2.png" alt="" class="home_info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Actors section-->
+        <section class="place section" id="actors">
+            <h2 class="section_title">Actorzy</h2>
+
+            <div class="place_container container grid">
+
+                <!-- 1st place -->
+                <div class="place_card">
+                    <img src="assets/img/place1.png" alt="" class="place_img">
+
+                    <div class="place_content">
+                        <span class="place_rating">
+                           
+                            <span class="place_rating-number"></span>
+                        </span>
+
+                        <div class="place_data">
+                            <h3 class="place_title">Quentin Tarantino</h3>
+                            <span class="place_subtitle">Jimmy</span>
+                        </div>
+                    </div>
+
+                    <a href="https://pl.wikipedia.org/wiki/Quentin_Tarantino">
+                        <button class="button button-flex place_button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+
+                <!-- 2nd place -->
+                <div class="place_card">
+                    <img src="assets/img/place2.png" alt="" class="place_img">
+
+                    <div class="place_content">
+                        <span class="place_rating">
+                        </span>
+
+                        <div class="place_data">
+                            <h3 class="place_title">John Travolta</h3>
+                            <span class="place_subtitle">Vincent Vega</span>
+                        </div>
+                    </div>
+
+                    <a href="https://pl.wikipedia.org/wiki/John_Travolta">
+                        <button class="button button-flex place_button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+
+                <!-- 3rd place -->
+                <div class="place_card">
+                    <img src="assets/img/place3.png" alt="" class="place_img">
+
+                    <div class="place_content">
+                        <span class="place_rating">
+                        </span>
+
+                        <div class="place_data">
+                            <h3 class="place_title">Samuel L. Jackson</h3>
+                            <span class="place_subtitle">Jules Winnfield</span>
+                        </div>
+                    </div>
+
+                    <a href="https://pl.wikipedia.org/wiki/Samuel_L._Jackson">
+                        <button class="button button-flex place_button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+
+                <!-- 4th place -->
+                <div class="place_card">
+                    <img src="assets/img/place4.png" alt="" class="place_img">
+
+                    <div class="place_content">
+                        <span class="place_rating">
+                        </span>
+
+                        <div class="place_data">
+                            <h3 class="place_title">Uma Thurman</h3>
+                            <span class="place_subtitle">Mia Wallace</span>
+                        </div>
+                    </div>
+
+                    <a href="https://pl.wikipedia.org/wiki/Uma_Thurman">
+                        <button class="button button-flex place_button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+
+                <!-- 5th place -->
+                <div class="place_card">
+                    <img src="assets/img/place5.png" alt="" class="place_img">
+
+                    <div class="place_content">
+                        <span class="place_rating">
+                        </span>
+
+                        <div class="place_data">
+                            <h3 class="place_title">Bruce Willis</h3>
+                            <span class="place_subtitle">Butch Cullidge</span>
+                        </div>
+                    </div>
+
+                    <a href="https://pl.wikipedia.org/wiki/Bruce_Willis">
+                        <button class="button button-flex place_button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+
+                <!-- 6th place -->
+                <div class="place_card">
+                    <img src="assets/img/place6.png" alt="" class="place_img">
+
+                    <div class="place_content">
+                        <span class="place_rating">
+                        </span>
+
+                        <div class="place_data">
+                            <h3 class="place_title">Tim Roth</h3>
+                            <span class="place_subtitle">Dynia</span>
+                        </div>
+                    </div>
+
+                    <a href="https://pl.wikipedia.org/wiki/Tim_Roth">
+                        <button class="button button-flex place_button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+
+                  <!-- 7th place -->
+                  <div class="place_card">
+                    <img src="assets/img/place7.png" alt="" class="place_img">
+
+                    <div class="place_content">
+                        <span class="place_rating">
+                        </span>
+
+                        <div class="place_data">
+                            <h3 class="place_title">Christopher Walken</h3>
+                            <span class="place_subtitle">Kapitan Koontz</span>
+                        </div>
+                    </div>
+
+                    <a href="https://pl.wikipedia.org/wiki/Christopher_Walken">
+                        <button class="button button-flex place_button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+
+                  <!-- 8th place -->
+                  <div class="place_card">
+                    <img src="assets/img/place8.png" alt="" class="place_img">
+
+                    <div class="place_content">
+                        <span class="place_rating">
+                        </span>
+
+                        <div class="place_data">
+                            <h3 class="place_title">Harvey Keitel</h3>
+                            <span class="place_subtitle">Winston Wolfe</span>
+                        </div>
+                    </div>
+
+                    <a href="https://pl.wikipedia.org/wiki/Harvey_Keitel">
+                        <button class="button button-flex place_button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+
+                  <!-- 9th place -->
+                  <div class="place_card">
+                    <img src="assets/img/place9.png" alt="" class="place_img">
+
+                    <div class="place_content">
+                        <span class="place_rating">
+                        </span>
+
+                        <div class="place_data">
+                            <h3 class="place_title">Eric Stoltz</h3>
+                            <span class="place_subtitle">Lance</span>
+                        </div>
+                    </div>
+
+                    <a href="https://pl.wikipedia.org/wiki/Eric_Stoltz">
+                        <button class="button button-flex place_button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discover section -->
+        <section class="discover section" id="discover">
+            <h2 class="section_title">Quentin Tarantino <br> Archiwum</h2>
+            
+            <div class="discover_container container swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover1.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover6.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover3.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover4.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover5.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover2.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover7.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover8.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover9.png" alt="" class="discover_img">
+                    </div>
+                    
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover10.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover11.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover12.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover13.png" alt="" class="discover_img">
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="assets/img/discover14.png" alt="" class="discover_img">
+                    </div>
+                </div>
+
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+
+            <!-- Video section -->
+            <section class="video section" id="trailers">
+                <h2 class="section_title">Klip</h2>
+                    <div class="video_container container">
+                        <p class="video_description">Pulp Fiction to amerykański film kryminalny z 1994 roku, napisany i wyreżyserowany przez Quentina Tarantino, który stworzył go wraz z Rogerem Avary.
+                             W rolach głównych John Travolta, Samuel L. Jackson, Bruce Willis, Tim Roth, Ving Rhames i Uma Thurman, opowiada kilka historii o przestępczości w Los Angeles w Kalifornii. 
+                             Tytuł nawiązuje do popularnych w połowie XX wieku magazynów pulpowych i powieści kryminalnych typu hardboiled, znanych z graficznej przemocy i ostrych dialogów.
+
+                             Jules Winnfield (Samuel L. Jackson) i Vincent Vega (John Travolta) to dwaj płatni zabójcy, którzy mają odzyskać walizkę skradzioną ich pracodawcy, szefowi mafii Marsellusowi Wallace'owi (Ving Rhames). 
+                             Wallace poprosił również Vincenta o zabranie jego żony Mii (Uma Thurman) na kilka dni później, kiedy sam Wallace będzie poza miastem. Butch Coolidge (Bruce Willis) to podstarzały bokser, któremu Wallace płaci za przegraną walkę. 
+                             Życie tych pozornie niezwiązanych ze sobą ludzi splata się ze sobą składając się na serię zabawnych, dziwacznych i bezapelacyjnych incydentów.
+                        </p>
+                    
+                        <div class="video_content">
+                            <iframe id="video-file" src="https://www.youtube.com/embed/wc95IoAcBIM" title="Pulp Fiction (1994) Blu-ray Trailer | 4K"></iframe> 
+                        </div>
+                    </div>
+                </section>
+
+            <!-- About section -->
+            <section class="about section" id="about">
+                <div class="about_container container grid">  
+                    
+                    <!-- Recomendation 1 -->
+                    <div class="about_data">
+                        <h2 class="section_title about_title">Moja pierwsza rekomendacja <br> Wściekłe psy</h2>
+                        <p class="about_description">Sześciu obcych sobie bandytów zostaje wynajętych przez bossa przestępczego, Joe Cabota, do dokonania napadu na diamenty. Już na wstępie dostają fałszywe nazwiska z zamiarem, że nie będą się zbytnio angażować i skoncentrują się na pracy. 
+                            Są całkowicie pewni, że napad zakończy się sukcesem. Kiedy jednak w miejscu i czasie napadu pojawia się policja, wśród członków grupy wybucha panika, a w wyniku strzelaniny ginie dwóch z nich, a także kilku policjantów i cywilów. 
+                            Kiedy pozostałe osoby zbierają się w zaplanowanym wcześniej miejscu spotkania (magazyn), zaczynają podejrzewać, że jeden z nich jest tajnym policjantem.
+
+                        </p>
+                        <a href="https://www.imdb.com/title/tt0105236/?ref_=nm_knf_t_1" class="button">Zobacz więcej</a>
+                    </div>
+
+                    <div class="about_img">
+                        <div class="about_img-overlay">
+                            <img src="assets/img/about1.png" alt="" class="about_img-one">
+                            <div class="rating1">
+                                <span class="imdbRatingPlugin" data-user="ur163331356" data-title="tt0105236" data-style="p2">
+                                    <a href="https://www.imdb.com/title/tt0105236/?ref_=plg_rt_1"><img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_38x18.png" alt="Reservoir Dogs (1992) on IMDb"/></a>
+                                </span>
+                                
+                                <script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/js/rating.js";stags.parentNode.insertBefore(js,stags);})(document,"script","imdb-rating-api");</script>
+                            </div>
+                        </div>
+                        <div class="about_img-overlay">
+                            <img src="assets/img/about2.png" alt="" class="about_img-two">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recomendation 2-->
+                <div class="about_container container grid">    
+                    <div class="about_data">
+                        <h2 class="section_title about_title">Moja druga rekomendacja <br> Nienawistna ósemka</h2>
+                        <p class="about_description">Jakiś czas po wojnie secesyjnej dyliżans pędzi przez mroźny krajobraz Wyoming. Łowca nagród John Ruth i jego zbiegła więźniarka Daisy Domergue pędzą w kierunku miasteczka Red Rock, gdzie Ruth doprowadzi Daisy przed oblicze sprawiedliwości.
+                             Po drodze spotykają majora Marquisa Warrena (niesławnego łowcę nagród) i Chrisa Mannixa (człowieka, który twierdzi, że jest nowym szeryfem Red Rock).
+                              Zagubiona w zamieci, grupa szuka schronienia w Pasmanterii Minnie. Po przyjeździe witają ich nieznane twarze: Bob, który twierdzi, że zajmuje się tym miejscem, podczas gdy Minnie nie ma; Oswaldo Mobray, kat z Red Rock; Joe Gage, przebijacz krów; oraz konfederacki generał Sanford Smithers. 
+                              W miarę jak burza ogarnia zbocze góry, ośmiu podróżników dochodzi do wniosku, że być może nie uda im się dotrzeć do Red Rock po wszystkim...
+
+                        </p>
+                        <a href="https://www.imdb.com/title/tt3460252/?ref_=nm_knf_c_4" class="button">Zobacz więcej</a>    
+                    </div>
+
+                    <div class="about_img">
+                        <div class="about_img-overlay">
+                            <img src="assets/img/about3.png" alt="" class="about_img-one">
+                            <div class="rating1">
+                                <span class="imdbRatingPlugin" data-user="ur163331356" data-title="tt3460252" data-style="p2">
+                                    <a href="https://www.imdb.com/title/tt3460252/?ref_=plg_rt_1"><img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_38x18.png" alt="The Hateful Eight (2015) on IMDb" /></a>
+                                </span>
+                                
+                                <script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/js/rating.js";stags.parentNode.insertBefore(js,stags);})(document,"script","imdb-rating-api");</script>
+                            </div>
+                        </div>
+                        <div class="about_img-overlay">
+                            <img src="assets/img/about4.png" alt="" class="about_img-two">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recomendation 3-->
+                <div class="about_container container grid">    
+                    <div class="about_data">
+                        <h2 class="section_title about_title">Moja trzecia rekomendacja <br> Sicario</h2>
+                         <p class="about_description">Kate Macer prowadzi w Phoenix jednostkę FBI zajmującą się porwaniami. Po tym jak zespół Kate przeprowadził nalot na znaną melinę narkotykową w pobliskim Chandler, Kate zostaje zwerbowana do pracy w zespole Special Ops prowadzonym przez Matta Gravera z CIA, który jest na specjalnym przydziale dla Departamentu Obrony. 
+                            Zwerbowali ją, ponieważ chcieli kogoś ze znajomością procedur taktycznych. Zewnętrznie, misja zespołu, który działa za Delta Force zespołu jako jego podstawowej mocy broni w razie potrzeby, jest dekapitacja meksykański kartel narkotykowy poprzez przechwytywanie lub rozczłonkowanie pracy głównych graczy, szef kartelu Manuel Díaz, jego drugi w dowództwie Guillermo Díaz (brat Manuela), i narkotyków Fausto Alarcón. 
+                        </p>
+                        
+                        <a href="https://www.imdb.com/title/tt3397884/?ref_=fn_al_tt_1" class="button">Zobacz więcej</a>    
+                    </div>
+                
+                    <div class="about_img">
+                        <div class="about_img-overlay">
+                            <img src="assets/img/about5.png" alt="" class="about_img-one">
+                            <div class="rating1">
+                                <span class="imdbRatingPlugin" data-user="ur163331356" data-title="tt3397884" data-style="p2">
+                                    <a href="https://www.imdb.com/title/tt3397884/?ref_=plg_rt_1"><img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_38x18.png" alt="Sicario (2015) on IMDb"/></a>
+                                </span>
+                                
+                                <script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/js/rating.js";stags.parentNode.insertBefore(js,stags);})(document,"script","imdb-rating-api");</script>
+                            </div>
+                        </div>       
+                        <div class="about_img-overlay">
+                            <img src="assets/img/about6.png" alt="" class="about_img-two">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recomendation 4-->
+                <div class="about_container container grid">    
+                    <div class="about_data">
+                        <h2 class="section_title about_title">Moja czwarta rekomendacja <br> Ocean's 13</h2>
+                         <p class="about_description">Kiedy ostatni raz widzieliśmy ekipę Danny'ego Oceana, spłacali oni bezwzględnego potentata kasyn Terry'ego Benedicta po tym, jak ukradli mu miliony. 
+                            Minęło jednak trochę czasu, odkąd wrócili do siebie, co wkrótce ma się zmienić. Kiedy jeden z nich, Reuben Tishkoff, buduje hotel z innym właścicielem kasyna, Willy'm Bankiem, ostatnią rzeczą, jakiej pragnął, jest to, by Bank osobiście odciął go od umowy. 
+                            Postawa Banku posuwa się nawet tak daleko, że znajduje rozbawienie w nieszczęściu Tishkoffa, gdy podwójne przejście ląduje Reuben w szpitalu z powodu ataku serca. Jednak Danny i jego załoga nie będzie tolerować Banku i tego, co zrobił przyjacielowi.
+                            Łącząc się ze swoim starym wrogiem Benedictem, który sam ma wendetę przeciwko Bankowi, ekipa ma zamiar zrealizować wielki plan, który rozwinie się w noc otwarcia najnowszego hot spotu Banku. Nie chodzi im o pieniądze, ale o zemstę. 
+                        </p>
+                        
+                        <a href="https://www.imdb.com/title/tt0496806/?ref_=ext_shr_lnk" class="button">Zobacz więcej</a>    
+                    </div>
+                
+                    <div class="about_img">
+                        <div class="about_img-overlay">
+                            <img src="assets/img/about7.png" alt="" class="about_img-one">
+                            <div class="rating1">
+                                <span class="imdbRatingPlugin" data-user="ur163331356" data-title="tt0496806" data-style="p2">
+                                    <a href="https://www.imdb.com/title/tt0496806/?ref_=plg_rt_1"><img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_38x18.png" alt="Ocean's Thirteen (2007) on IMDb"/></a>
+                                </span>
+                                
+                                <script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/js/rating.js";stags.parentNode.insertBefore(js,stags);})(document,"script","imdb-rating-api");</script>
+                            </div>
+                        </div>       
+                        <div class="about_img-overlay">
+                            <img src="assets/img/about8.png" alt="" class="about_img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    </main>
+
+    <footer class="footer section">
+        <div class="footer_container container grid">
+
+            <div class="footer_rights">
+                <small class="footer-copy">&copy; 2023 Yahor Falkouski – All Rights Reserved</small>
+                <div class="footer_terms">
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Scroll up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup_icon"></i>
+    </a>
+
+
+    <!-- Scroll reveal -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- swiper js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
